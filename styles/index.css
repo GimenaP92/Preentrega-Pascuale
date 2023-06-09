@@ -1,0 +1,131 @@
+section {
+ overflow: auto;
+}
+
+.texto-bienvenida {
+    margin-top: 5%;
+    margin-left: 5%;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+p {
+    float: left;
+    width: 50%;
+ }
+
+
+.imgBienvenida {
+  float:inline-end;
+  width: 25%; 
+  height: auto
+}
+
+
+.titulo-Productos {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 40%;
+    border: 1px solid black;
+    padding: 2%;
+    width: 20%;
+    align-items: center; 
+}
+
+.vinculo-living {
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 10%;
+    border: 1px solid black;
+    border-top: none;
+    padding: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+   
+}
+
+.productos-Living {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+
+.productos{
+    box-shadow: 3px 3px 3px rgb(211, 211, 211);
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    display: inline;
+}
+
+.img-Producto {
+    width: 80%; 
+    height: auto;  
+}
+
+.productos, .precio-Producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.precio-Producto {
+width: auto;
+padding: 1%;
+background-color: whitesmoke;
+color: black;
+box-shadow: 3px 3px 3px rgb(112, 111, 111);
+}
+
+.btn-Carrito {
+    border-radius: 5px;
+    background-color: brown;
+    border-color: brown;
+    border-color: transparent;
+    color: whitesmoke;
+    padding: 2%;
+    display: flex;
+flex-direction: row;
+
+}
+
+.btn-Carrito i {
+    margin-left: 10px;
+  }
+.btn-Carrito:hover {
+    cursor: pointer;
+}
+.btn-link-living {
+    border: 2px solid #999999;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 70%;
+    margin-left: 15%;
+    }
+  
+  .btn-link-living:hover {
+    background-color: #dfd7d7;
+  }
+  
+  .btn-link-living:focus {
+    outline: none;
+    box-shadow: 0 0 4px #999999;
+  }
+
+
+
+.btn-link-living:hover{
+    cursor: pointer;
+}
