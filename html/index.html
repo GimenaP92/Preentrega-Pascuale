@@ -5,137 +5,169 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deco & Home - decoración para el hogar, venta online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="../imagenes/iconTitle.png" type="image/x-icon">
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
-    <header>
-        <div class="headerFijo">
-            <p>Envíos a todo el pais | 6 cuotas sin interés</p>  
-        </div>  
-      <div  class="headerNav">
-          <h1 class="titulo">Deco & Home</h1>
-      <nav>
-         <ul>
-            <li><a href="./index.html" target="_blank">Home</a></li>
-            <li><a href="./productos.html" target="_blank">Productos</a></li>
-            <li><a href="./iniciarSesion.html" target="_blank">Iniciar Sesión</a></li>
-            <li><a href="./carrito.html" target="_blank">Carrito</a></li>
-            <li><a href="./contacto.html" target="_blank">Contacto</a></li>
-        </ul>
-      </nav>     
-    </div>
-</header>
+    <div class="text-center py-1">
+        Envíos a todo el pais | 6 cuotas sin interés 
+    </div>  
+    <nav class="navbar navbar-expand-lg barraDeNavegacion sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img src="../imagenes/img-index/logo.png"   class="rounded" alt="logo de Deco & Home">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./iniciarSesion.html">Iniciar Sesión</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./carrito.html">Carrito</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+              </li>
+        </div>
+      </nav>  
+      
 <main>
-<section>    
-     <figure>
-        <figcaption class="texto-bienvenida">~ Detalles que inspiran, hogar que enamora ~</figcaption>
-      <p> El hogar es el lugar donde se cultivan los mejores momentos y se crean recuerdos inolvidables. Queremos ayudarte a convertir tu casa en un refugio lleno de amor y calidez.<br>
-    Nos especializamos en decoración del hogar, con un enfoque en transmitir amor, detalles y cariño en cada pieza,nuestros productos están diseñados pensando en esos pequeños detalles que hacen que cada espacio sea único. Desde elegantes almohadones hasta delicadas lámparas, encontrarás todo lo necesario para transformar tu hogar en un lugar especial... Te invitamos a explorar <strong>Deco & HoMe</strong> y descubrir cómo puedes transformar tu hogar. </p>
-     <img class="imgBienvenida" src="../imagenes/svitlana-kwE6ohZccSs-unsplash.jpg" alt="Maquina de escribir, foto que acompaña la presentacion de la pagina">
-    </figure>
+    <div class="acciones mt-3">
+        <form action="">
+            <input class="buscar" type="search" placeholder="Buscar">
+            <button class="btn-buscar">
+               <img class="img-buscar" src="../imagenes/img-index/search.svg" alt="lupa para buscar">
+            </button>
+        </form>
+
+    </div>
+<section class="container-bienvenida mt-4">
+  <div class="titulo-bienvenida elemento-bienvenida">~ Detalles que inspiran, hogar que enamora ~</div>
+  <div class="texto-bienvenida elemento-bienvenida">
+     El hogar es el lugar donde se cultivan los mejores momentos y se crean recuerdos inolvidables.<br>
+     Queremos ayudarte a convertir tu casa en un refugio lleno de amor y calidez.<br>
+    Te invitamos a explorar <strong>Deco & HoMe</strong> y descubrir cómo puedes transformar tu hogar.</div>
+  <div class="img-bienvenida elemento-bienvenida"></div>
 </section>
-<section>
-  <h2 class="titulo-Productos">Productos</h2>
-    <a href="" target="_blank" class="vinculo-living">Living</a>
-    <div class="productos-Living">
- <!-- Comienzo producto-->
-<figure class="productos">
-    <img class="img-Producto" src="../imagenes/picHeader2.jpg" alt="">
-    <figcaption><strong>Nombre producto Living</strong></figcaption>
-    <p class="detalle-Producto">Detalles producto living</p>
-    <p class="precio-Producto">$0000</p>
-    <button class="btn-Carrito">Agregar al carrito<i class="bi-carrito bi-cart"></i></button>
-</figure>
-<!-- Fin de producto-->
-<!-- Comienzo producto-->
-<figure class="productos">
-    <img class="img-Producto" src="../imagenes/picHeader2.jpg" alt="">
-    <figcaption><strong>Nombre producto Living</strong></figcaption>
-    <p class="detalle-Producto">Detalles producto living</p>
-    <p class="precio-Producto">$0000</p>
-    <button class="btn-Carrito">Agregar al carrito<i class="bi-carrito bi-cart"></i></button>
-</figure>
-<!-- Fin de producto-->
-<!-- Comienzo producto-->
-<figure class="productos">
-    <img class="img-Producto" src="../imagenes/picHeader2.jpg" alt="">
-    <figcaption><strong>Nombre producto Living</strong></figcaption>
-    <p class="detalle-Producto">Detalles producto living</p>
-    <p class="precio-Producto">$0000</p>
-    <button class="btn-Carrito">Agregar al carrito<i class="bi-carrito bi-cart"></i></button>
-</figure>
-<!-- Fin de producto-->
-<!-- Comienzo producto-->
-<figure class="productos">
-    <img class="img-Producto" src="../imagenes/picHeader2.jpg" alt="">
-    <figcaption><strong>Nombre producto Living</strong></figcaption>
-    <p class="detalle-Producto">Detalles producto living</p>
-    <p class="precio-Producto">$0000</p>
-    <button class="btn-Carrito">Agregar al carrito<i class="bi-carrito bi-cart"></i></button>
-</figure>
-<!-- Fin de producto-->
-<!-- Comienzo producto-->
-<figure class="productos">
-    <img class="img-Producto" src="../imagenes/picHeader2.jpg" alt="">
-    <figcaption><strong>Nombre producto Living</strong></figcaption>
-    <p class="detalle-Producto">Detalles producto living</p>
-    <p class="precio-Producto">$0000</p>
-    <button class="btn-Carrito">Agregar al carrito<i class="bi-carrito bi-cart"></i></button>
-</figure>
-<!-- Fin de producto-->
-<!-- Comienzo producto-->
-<figure class="productos">
-    <img class="img-Producto" src="../imagenes/picHeader2.jpg" alt="">
-    <figcaption><strong>Nombre producto Living</strong></figcaption>
-    <p class="detalle-Producto">Detalles producto living</p>
-    <p class="precio-Producto">$0000</p>
-    <button class="btn-Carrito">Agregar al carrito<i class="bi-carrito bi-cart"></i></button>
-</figure>
-<!-- Fin de producto-->
-<!-- Comienzo producto-->
-<figure class="productos">
-    <img class="img-Producto" src="../imagenes/picHeader2.jpg" alt="">
-    <figcaption><strong>Nombre producto Living</strong></figcaption>
-    <p class="detalle-Producto">Detalles producto living</p>
-    <p class="precio-Producto">$0000</p>
-    <button class="btn-Carrito">Agregar al carrito<i class="bi-carrito bi-cart"></i></button>
-</figure>
-<!-- Fin de producto-->
-<!-- Comienzo producto-->
-<figure class="productos">
-    <img class="img-Producto" src="../imagenes/picHeader2.jpg" alt="">
-    <figcaption><strong>Nombre producto Living</strong></figcaption>
-    <p class="detalle-Producto">Detalles producto living</p>
-    <p class="precio-Producto">$0000</p>
-    <button class="btn-Carrito">Agregar al carrito<i class="bi-carrito bi-cart"></i></button>
-</figure>
-<!-- Fin de producto-->
-<!-- Comienzo producto-->
-<figure class="productos">
-    <img class="img-Producto" src="../imagenes/picHeader2.jpg" alt="">
-    <figcaption><strong>Nombre producto Living</strong></figcaption>
-    <p class="detalle-Producto">Detalles producto living</p>
-    <p class="precio-Producto">$0000</p>
-    <button class="btn-Carrito">Agregar al carrito<i class="bi-carrito bi-cart"></i></button>
-</figure>
-<!-- Fin de producto-->
-<button class="btn-link-living">Ver más</button>
-</div>
+
+<section class="section-Rubros mt-4">
+  <div class="titulo-Productos d-flex align-items-center justify-content-center m-4">
+    <h2 class="titulo-Rubros m-1 p-3 mt-5 mb-5">
+      Decoramos cada espacio de tu hogar
+    </h2>
+  </div>
+  <!-- Poner vinculo al producto -->
+   <!-- Comienzo productos habitacion-->
+     <a href=""  class="vinculo-living" >Living</a>
+     <div class="container-productos">
+        <div class="elemento-producto">
+          <img src="../imagenes/img-living/living-1.jpg" alt="">
+        </div>
+        <div class="elemento-producto">
+          <img src="../imagenes/img-living/living-2.jpg" alt="">
+        </div>
+        <div class="elemento-producto">
+          <img src="../imagenes/img-living/living-3.jpg" alt="">
+        </div>
+        <div class="elemento-producto">
+          <img src="../imagenes/img-living/living-4.jpg" alt="">
+        </div>
+        <div class="elemento-producto">
+          <img src="../imagenes/img-living/living-5.jpg" alt="">
+        </div>
+        <div class="elemento-producto">
+          <img src="../imagenes/img-living/living-6.jpg" alt="">
+        </div>
+        <button class="btn-link-living elemento-producto">Ver más</button>
+     </div>
+
+     <!-- Fin productos living-->
+     <!-- Comienzo productos habitacion-->
+     <a href=""  class="vinculo-habitacion">Habitación</a>
+     <div class="container-productos">
+       <div class="elemento-producto">
+        <img src="../imagenes/img-habitacion/habitacion-1.jpg" alt="">
+      </div>
+      <div class="elemento-producto">
+        <img src="../imagenes/img-habitacion/habitacion-2.jpg" alt="">
+      </div>
+      <div class="elemento-producto">
+        <img src="../imagenes/img-habitacion/habitacion-3.jpg" alt="">
+      </div>
+      <div class="elemento-producto">
+        <img src="../imagenes/img-habitacion/habitacion-4.jpg" alt="">
+      </div>
+      <div class="elemento-producto">
+        <img src="../imagenes/img-habitacion/habitacion-5.jpg" alt="">
+      </div>
+      <div class="elemento-producto">
+        <img src="../imagenes/img-habitacion/habitacion-6.jpg" alt="">
+      </div>
+        <button class="btn-link-habitacion elemento-productos">Ver más</button>
+     </div>
+     <!-- Fin productos habitacion-->
+     <!-- Comienzo productos baño-->
+     <a href=""  class="vinculo-baño">Baño</a>
+     <div class="container-productos">
+      <div class="elemento-producto">
+        <img src="../imagenes/img-baño/baño-1.jpg" alt="">
+      </div>
+      <div class="elemento-producto">
+        <img src="../imagenes/img-baño/baño-2.jpg" alt="">
+      </div>
+      <div class="elemento-producto">
+        <img src="../imagenes/img-baño/baño-3.jpg" alt="">
+      </div>
+      <div class="elemento-producto">
+        <img src="../imagenes/img-baño/baño-4.jpg" alt="">
+      </div>
+      <div class="elemento-producto">
+        <img src="../imagenes/img-baño/baño-5.jpg" alt="">
+      </div>
+      <div class="elemento-producto">
+        <img src="../imagenes/img-baño/baño-6.jpg" alt="">
+      </div>
+       <button class="btn-link-baño elemento-productos">Ver más</button>
+    </div>
+     <!-- Fin productos baño-->
 </section>
 </main>
-
-<footer>
-    <div class="redes">
-        <h5>Seguinos en nuestras redes:</h5>
-        <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
-        <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
-        <a href="#" target="_blank"><i class="bi bi-twitter"></i></a>
+ <!-- Footer-->
+<footer class="footer mt-3 p-4">
+  <div class="container-fluid p-1">
+    <div class="row">
+      <div class="texto-redes col-12 p-1 text-center">
+        Seguinos en nuestras redes:
+      </div>
     </div>
+    <div class="row pt-2 justify-content-center">
+      <div class="col-4 col-sm-2 col-md-1 text-center">
+        <a href="#" target="_blank"><i class="bi bi-facebook ps-sm-1 ps-md-2 ps-lg-0"></i></a>
+      </div>
+      <div class="col-4 col-sm-2 col-md-1 text-center">
+        <a href="#" target="_blank"><i class="bi bi-instagram ps-sm-1 ps-md-2 ps-lg-0"></i></a>
+      </div>
+      <div class="col-4 col-sm-2 col-md-1 text-center">
+        <a href="#" target="_blank"><i class="bi bi-twitter ps-sm-1 ps-md-2 ps-lg-0"></i></a>
+      </div>
+    </div>
+  </div>
 </footer>
+ <!-- Fin footer-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
