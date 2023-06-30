@@ -31,7 +31,7 @@
 }
 
 .img-bienvenida {
-  background-image: url(../imagenes/img-index/svitlana-kwE6ohZccSs-unsplash.jpg);
+  background-image: url('../imagenes/img-index/svitlana-kwE6ohZccSs-unsplash.jpg');
   grid-area: img-bienvenida;
 }
 
@@ -78,7 +78,7 @@
       background-image: url('../imagenes/img-habitacion/habitacion-7.jpg');
     }
     .btn-link-baño{
-      background-image:url(../imagenes/img-baño/baño-7.jpg);
+      background-image:url('../imagenes/img-baño/baño-7.jpg');
     }
     
 
