@@ -44,6 +44,22 @@
               </li>
         </div>
       </nav>  
+<main>
+  <h1>Contacto</h1>
+  <h6>Nos encantaría saber de ti! Si tienes alguna pregunta, consulta o simplemente quieres compartir tus comentarios, por favor, escríbenos a través de este formulario de contacto</h6>
+  <form action="enviar.php" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" required></textarea>
+
+    <input type="submit" value="Enviar">
+  </form>
+</main>
       <footer class="footer mt-3 p-4">
         <div class="container-fluid p-1">
           <div class="row">
