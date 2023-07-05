@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="../imagenes/iconTitle.png" type="image/x-icon">
     <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/productos.css">
     <link rel="stylesheet" href="../styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,54 +45,492 @@
               </li>
         </div>
       </nav>  
-      <h1>Nuestros productos</h1>
+      
+        <section>
+      <h1 class="titulo-productos">Nuestros productos</h1>
       <!--Links a secciones de productos -->
-      <section>
-      <ul class="nav nav-tabs">
-        <li class="nav-item habitacion">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Living</a>
+      
+      <ul class="nav nav-tabs mb-5 p-3">
+        <li class="nav-item nav-item-secciones habitacion">
+          <a class="nav-link nav-secciones" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Living</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Sillones</a></li>
-            <li><a class="dropdown-item" href="#">Cuadros</a></li>
-            <li><a class="dropdown-item" href="#">Lamparas</a></li>
+            <li><a class="dropdown-item" href="#seccion-sillones">Sillones</a></li>
             <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#seccion-cuadros">Cuadros</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#seccion-lamparas-living">Lamparas</a></li>
           </ul>
         </li>
         <li class="nav-item habitacion">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dormitorio</a>
+          <a class="nav-link nav-secciones" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Habitación</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Sabanas</a></li>
-            <li><a class="dropdown-item" href="#">Respaldos</a></li>
-            <li><a class="dropdown-item" href="#">Lamparas</a></li>
+            <li><a class="dropdown-item" href="#seccion-sabanas">Sábanas</a></li>
             <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#seccion-respaldos">Respaldos</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#seccion-lamparas-habitacion">Lámparas</a></li>
           </ul>
         </li>
         <li class="nav-item habitacion">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Baño</a>
+          <a class="nav-link nav-secciones" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Baño</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Cortinas</a></li>
-            <li><a class="dropdown-item" href="#">Alfombras</a></li>
-            <li><a class="dropdown-item" href="#">Accesorios</a></li>
+            <li><a class="dropdown-item" href="#seccion-cortinas">Cortinas</a></li>
             <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#seccion-alfombras">Alfombras</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#seccion-accesorios">Accesorios</a></li>
           </ul>
         </li> 
       </ul>
     </section>
 
     <section>
+      <main>
 <!-- Comienzo seccion living-->
-    </section>
-    <main>
-    <!-- Comienzo producto-->
-    <figure class="productos">
-        <img class="img-Producto" src="../imagenes/picHeader2.jpg" alt="">
-        <figcaption><strong>Nombre producto Living</strong></figcaption>
-        <p class="detalle-Producto">Detalles producto living</p>
-        <p class="precio-Producto">$0000</p>
-        <button class="btn-Carrito">Agregar al carrito<i class="bi-carrito bi-cart"></i></button>
-      </figure>
+<div class="secciones-productos">
+      <h2 id="#seccion-living"  class="secciones-living">Living</h2>
+      <h3 id="seccion-sillones"  class="secciones-sillones" >Sillones</h3>
+    </div>   
+ <!-- Comienzo producto-->
+ <div class="tarjeta-container">
+      <div class="card" style="width: 18rem;">
+        <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nombre producto</h5>
+          <p class="card-text">Detalles producto</p>
+          <p class="precio-Producto">$0000</p>
+          <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+        </div>
+      </div>
       <!-- Fin de producto-->
-    </main>
+       <!-- Comienzo producto-->
+       <div class="card" style="width: 18rem;">
+        <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nombre producto</h5>
+          <p class="card-text">Detalles producto</p>
+          <p class="precio-Producto">$0000</p>
+          <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+        </div>
+      </div>
+      <!-- Fin de producto-->
+       <!-- Comienzo producto-->
+       <div class="card" style="width: 18rem;">
+        <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nombre producto</h5>
+          <p class="card-text">Detalles producto</p>
+          <p class="precio-Producto">$0000</p>
+          <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+        </div>
+      </div>
+      <!-- Fin de producto-->
+       <!-- Comienzo producto-->
+       <div class="card" style="width: 18rem;">
+        <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nombre producto</h5>
+          <p class="card-text">Detalles producto</p>
+          <p class="precio-Producto">$0000</p>
+          <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+        </div>
+      </div>
+ </div>
+      <!-- Fin de producto-->
+      <h3 id="seccion-cuadros"  class="secciones-sillones" >Cuadros</h3>
+    </div>   
+ <!-- Comienzo producto-->
+ <div class="tarjeta-container">
+      <div class="card" style="width: 18rem;">
+        <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nombre producto</h5>
+          <p class="card-text">Detalles producto</p>
+          <p class="precio-Producto">$0000</p>
+          <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+        </div>
+      </div>
+      <!-- Fin de producto-->
+       <!-- Comienzo producto-->
+       <div class="card" style="width: 18rem;">
+        <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nombre producto</h5>
+          <p class="card-text">Detalles producto</p>
+          <p class="precio-Producto">$0000</p>
+          <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+        </div>
+      </div>
+      <!-- Fin de producto-->
+       <!-- Comienzo producto-->
+       <div class="card" style="width: 18rem;">
+        <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nombre producto</h5>
+          <p class="card-text">Detalles producto</p>
+          <p class="precio-Producto">$0000</p>
+          <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+        </div>
+      </div>
+      <!-- Fin de producto-->
+       <!-- Comienzo producto-->
+       <div class="card" style="width: 18rem;">
+        <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nombre producto</h5>
+          <p class="card-text">Detalles producto</p>
+          <p class="precio-Producto">$0000</p>
+          <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+        </div>
+      </div>
+ </div>
+      <!-- Fin de producto-->
+      <h3 id="seccion-lamparas-living"  class="secciones-sillones" >Lamparas</h3>
+    </div>   
+ <!-- Comienzo producto-->
+ <div class="tarjeta-container">
+      <div class="card" style="width: 18rem;">
+        <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nombre producto</h5>
+          <p class="card-text">Detalles producto</p>
+          <p class="precio-Producto">$0000</p>
+          <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+        </div>
+      </div>
+      <!-- Fin de producto-->
+       <!-- Comienzo producto-->
+       <div class="card" style="width: 18rem;">
+        <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nombre producto</h5>
+          <p class="card-text">Detalles producto</p>
+          <p class="precio-Producto">$0000</p>
+          <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+        </div>
+      </div>
+      <!-- Fin de producto-->
+       <!-- Comienzo producto-->
+       <div class="card" style="width: 18rem;">
+        <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nombre producto</h5>
+          <p class="card-text">Detalles producto</p>
+          <p class="precio-Producto">$0000</p>
+          <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+        </div>
+      </div>
+      <!-- Fin de producto-->
+       <!-- Comienzo producto-->
+       <div class="card" style="width: 18rem;">
+        <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nombre producto</h5>
+          <p class="card-text">Detalles producto</p>
+          <p class="precio-Producto">$0000</p>
+          <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+        </div>
+      </div>
+ </div>
+      <!-- Fin de producto-->
+
+      <!-- Comienzo seccion habitacion-->
+<div class="secciones-productos">
+  <h2 id="seccion-habitacion"  class="secciones-living">Habitación</h2>
+      <h3 id="seccion-sabanas"  class="secciones-sillones">Sábanas</h3>
+</div>   
+<!-- Comienzo producto-->
+<div class="tarjeta-container">
+  <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+</div>
+  <!-- Fin de producto-->
+  <h3 id="seccion-respaldos"  class="secciones-sillones">Respaldos</h3>
+</div>   
+<!-- Comienzo producto-->
+<div class="tarjeta-container">
+  <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+</div>
+  <!-- Fin de producto-->
+  <h3 id="seccion-lamparas-habitacion"  class="secciones-sillones">Lámparas</h3>
+</div>   
+<!-- Comienzo producto-->
+<div class="tarjeta-container">
+  <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+</div>
+  <!-- Fin de producto-->
+
+  <!-- Comienzo seccion baño-->
+<div class="secciones-productos">
+  <h2 id="seccion-baño"  class="secciones-living">Baño</h2>
+  <h3 id="seccion-cortinas"  class="secciones-sillones">Cortinas</h3>
+</div>   
+<!-- Comienzo producto-->
+<div class="tarjeta-container">
+  <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+</div>
+  <!-- Fin de producto-->
+      <h3 id="seccion-alfombras"  class="secciones-sillones">Alfombras</h3>
+</div>   
+<!-- Comienzo producto-->
+<div class="tarjeta-container">
+  <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+</div>
+  <!-- Fin de producto-->
+  <h3 id="seccion-accesorios"  class="secciones-sillones">Accesorios</h3>
+</div>   
+<!-- Comienzo producto-->
+<div class="tarjeta-container">
+  <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+  <!-- Fin de producto-->
+   <!-- Comienzo producto-->
+   <div class="card" style="width: 18rem;">
+    <img src="../imagenes/img-living/living-2.jpg" class="card-img-top img-Producto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nombre producto</h5>
+      <p class="card-text">Detalles producto</p>
+      <p class="precio-Producto">$0000</p>
+      <a href="#" class="btn-Carrito">Agregar al carrito  <i class="bi-carrito bi-cart"></i></a>
+    </div>
+  </div>
+</div>
+  <!-- Fin de producto-->
+    </section>
+     </main>
 
     <footer class="footer mt-3 p-4">
         <div class="container-fluid p-1">

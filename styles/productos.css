@@ -1,0 +1,122 @@
+main {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+
+.titulo-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/img-fondo-producto.jpg);
+   background-size: cover center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: beige;
+    padding: 10%;
+    margin-bottom: 0%;
+}
+
+.nav {
+    background-image: url(../imagenes/img-index/svitlana-kwE6ohZccSs-unsplash.jpg);
+    background-color: rgb(219, 217, 214);
+    font-size: large;
+    padding-left: 2%;
+}
+
+
+.nav-secciones {
+    color: black;
+    background-color: #f8f4f0;
+    box-shadow: 5px 2px 5px rgb(160, 148, 132);
+    margin-right: 5%;
+}
+
+.nav-secciones:hover {
+    color: black;
+}
+
+.secciones-living {
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(202, 162, 110);
+    box-shadow: 5px 2px 5px rgb(148, 112, 66);
+    padding: 2%;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.secciones-sillones {
+    background-image: url(../imagenes/img-fondo-producto.jpg);
+    background-size: cover center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: beige;
+   width: 100%;
+   padding: 1.5%;
+   margin-top: 2%;
+   
+}
+
+.secciones-sillones, .secciones-living {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.tarjeta-container {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgb(211, 211, 211);
+}
+
+.card-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+      .img-Producto {
+         width: 80%; 
+         height: auto;  
+         margin-top: 2%;
+       }
+
+      .precio-Producto {
+        margin: 0 auto;
+        width: fit-content;
+       padding: 1%;
+       margin-bottom: 4%;
+       background-color: whitesmoke;
+       color: black;
+       box-shadow: 3px 3px 3px rgb(112, 111, 111);  
+    }
+
+      .btn-Carrito {
+        border-radius: 5px;
+       background-color: brown;
+       border-color: brown;
+       border-color: transparent;
+       color: whitesmoke;
+       padding: 2%;
+       display: flex;
+       flex-direction: row;
+       width: 100%;
+       white-space: nowrap;
+       overflow: visible;
+       box-sizing: content-box;
+       }
+
+           .btn-Carrito:hover {
+              cursor: pointer;
+              transform: scale(1.1);
+             }
