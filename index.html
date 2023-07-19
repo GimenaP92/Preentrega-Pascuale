@@ -8,15 +8,36 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="./imagenes/iconTitle.png" type="image/x-icon">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css.map">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 </head>
 <body>
-    <div class="text-center py-1">
-        Envíos a todo el pais | 6 cuotas sin interés 
-    </div>  
+  
+    <div class="acciones mt-3">
+      <form action="" class="d-flex">
+          <input class="casilla-buscar" type="search" placeholder="Buscar">
+          <button class="logos-nav">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+          </button>  
+          <a class="logo-cuenta logos-nav" href="./pages/carrito.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+        </svg>
+          </a>
+      <a class="logo-cuenta logos-nav" href="./pages/iniciarSesion.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+          <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+        </svg>
+      </a>
+      </form>
+  </div>
+
+
     <nav class="navbar navbar-expand-lg barraDeNavegacion sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">
@@ -28,146 +49,112 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="../pages/living.html">Living |</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./pages/productos.html">Productos</a>
+                <a class="nav-link active" aria-current="page" href="../pages/cocina.html">Cocina |</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./pages/iniciarSesion.html">Iniciar Sesión</a>
+                <a class="nav-link active" aria-current="page" href="../pages/dormitorio.html">Dormitorio |</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./pages/carrito.html">Carrito</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                <a class="nav-link active" aria-current="page" href="../pages/baño.html">Baño |</a>
               </li>
         </div>
       </nav>  
       
 <main>
-    <div class="acciones mt-3">
-        <form action="">
-            <input class="buscar" type="search" placeholder="Buscar">
-            <button class="btn-buscar">
-               <img class="img-buscar" src="./imagenes/img-index/search.svg" alt="lupa para buscar">
-            </button>
-        </form>
+  
+  <!--Comienzo carousel-->
+ 
+  
+  <!--Fin carousel-->
 
-    </div>
-<section class="container-bienvenida mt-4">
-  <div class="titulo-bienvenida elemento-bienvenida">~ Detalles que inspiran, hogar que enamora ~</div>
-  <div class="texto-bienvenida elemento-bienvenida">
-     El hogar es el lugar donde se cultivan los mejores momentos y se crean recuerdos inolvidables.<br>
-     Queremos ayudarte a convertir tu casa en un refugio lleno de amor y calidez.<br>
-    Te invitamos a explorar <strong>Deco & HoMe</strong> y descubrir cómo puedes transformar tu hogar.</div>
-  <div class="img-bienvenida elemento-bienvenida"></div>
-</section>
+  <section class="container-bienvenida mt-4">
+    <div class="titulo-bienvenida elemento-bienvenida">~ Detalles que inspiran, hogar que enamora ~</div>
+    <div class="texto-bienvenida elemento-bienvenida">
+       Queremos ayudarte a convertir tu casa en un refugio lleno de amor y calidez.<br>
+      Te invitamos a explorar <strong>Deco & HoMe</strong> y descubrir cómo puedes transformar tu hogar.</div>
+    <div class="img-bienvenida elemento-bienvenida"></div>
+  </section>
 
 <section class="section-Rubros mt-4">
-  <div class="titulo-Productos d-flex align-items-center justify-content-center m-4">
     <h2 class="titulo-Rubros m-1 p-3 mt-5 mb-5">
       Decoramos cada espacio de tu hogar
     </h2>
   </div>
-  <!-- Poner vinculo al producto -->
-   <!-- Comienzo productos habitacion-->
-     <a href="./pages/productos.html#seccion-living"  class="secciones" >Living</a>
-     <div class="container-productos">
-        <div class="elemento-producto">
-          <img src="./imagenes/img-living/living-1.jpg" alt="">
-        </div>
-        <div class="elemento-producto">
-          <img src="./imagenes/img-living/living-2.jpg" alt="">
-        </div>
-        <div class="elemento-producto">
-          <img src="./imagenes/img-living/living-3.jpg" alt="">
-        </div>
-        <div class="elemento-producto">
-          <img src="./imagenes/img-living/living-4.jpg" alt="">
-        </div>
-        <div class="elemento-producto">
-          <img src="./imagenes/img-living/living-5.jpg" alt="">
-        </div>
-        <div class="elemento-producto">
-          <img src="./imagenes/img-living/living-6.jpg" alt="">
-        </div>
-       <a href="./pages/productos.html#seccion-living" class="btn-link-living elemento-producto">Ver más</a>
-        
-     </div>
-
-     <!-- Fin productos living-->
-     <!-- Comienzo productos habitacion-->
-     <a href="./pages/productos.html#seccion-habitacion"  class="secciones">Habitación</a>
-     <div class="container-productos">
-       <div class="elemento-producto">
-        <img src="./imagenes/img-habitacion/habitacion-1.jpg" alt="">
-      </div>
-      <div class="elemento-producto">
-        <img src="./imagenes/img-habitacion/habitacion-2.jpg" alt="">
-      </div>
-      <div class="elemento-producto">
-        <img src="./imagenes/img-habitacion/habitacion-3.jpg" alt="">
-      </div>
-      <div class="elemento-producto">
-        <img src="./imagenes/img-habitacion/habitacion-4.jpg" alt="">
-      </div>
-      <div class="elemento-producto">
-        <img src="./imagenes/img-habitacion/habitacion-5.jpg" alt="">
-      </div>
-      <div class="elemento-producto">
-        <img src="./imagenes/img-habitacion/habitacion-6.jpg" alt="">
-      </div>
-      <a href="./pages/productos.html#seccion-habitacion" class="btn-link-habitacion elemento-producto">Ver más</a>
-     </div>
-     <!-- Fin productos habitacion-->
-     <!-- Comienzo productos baño-->
-     <a href="./pages/productos.html#seccion-baño"  class="secciones">Baño</a>
-     <div class="container-productos">
-      <div class="elemento-producto">
-        <img src="./imagenes/img-baño/baño-1.jpg" alt="">
-      </div>
-      <div class="elemento-producto">
-        <img src="./imagenes/img-baño/baño-2.jpg" alt="">
-      </div>
-      <div class="elemento-producto">
-        <img src="./imagenes/img-baño/baño-3.jpg" alt="">
-      </div>
-      <div class="elemento-producto">
-        <img src="./imagenes/img-baño/baño-4.jpg" alt="">
-      </div>
-      <div class="elemento-producto">
-        <img src="./imagenes/img-baño/baño-5.jpg" alt="">
-      </div>
-      <div class="elemento-producto">
-        <img src="./imagenes/img-baño/baño-6.jpg" alt="">
-      </div>
-       <a href="./pages/productos.html#seccion-baño" class="btn-link-baño elemento-producto">Ver más</a>
-    </div>
-     <!-- Fin productos baño-->
-</section>
-</main>
- <!-- Footer-->
-<footer class="footer mt-3 p-4">
-  <div class="container-fluid p-1">
-    <div class="row">
-      <div class="texto-redes col-12 p-1 text-center">
-        Seguinos en nuestras redes:
-      </div>
-    </div>
-    <div class="row pt-2 justify-content-center">
-      <div class="col-4 col-sm-2 col-md-1 text-center">
-        <a href="#" target="_blank"><i class="bi bi-facebook ps-sm-1 ps-md-2 ps-lg-0"></i></a>
-      </div>
-      <div class="col-4 col-sm-2 col-md-1 text-center">
-        <a href="#" target="_blank"><i class="bi bi-instagram ps-sm-1 ps-md-2 ps-lg-0"></i></a>
-      </div>
-      <div class="col-4 col-sm-2 col-md-1 text-center">
-        <a href="#" target="_blank"><i class="bi bi-twitter ps-sm-1 ps-md-2 ps-lg-0"></i></a>
-      </div>
-    </div>
+<div class="grid-container">
+  <div class="section">
+    <a  href="./pages/living.html">
+      <img src="./imagenes/img-index/index-living.webp" alt="Imagen de living moderno">
+    </a> 
+    <div class="content">Living</div>
   </div>
-</footer>
+  <div class="section">
+    <a  href="./pages/cocina.html">
+    <img src="./imagenes/img-index/index-cocina.webp" alt="Imagen de cocina moderna">
+    </a>
+    <div class="content">Cocina</div>
+  </div>
+  <div class="section">
+    <a  href="./pages/dormitorio.html">
+    <img src="./imagenes/img-index/index-dormitorio.webp" alt="Imagen de dormitorio moderno">
+    </a>
+    <div class="content">Dormitorio</div>
+  </div>
+  <div class="section">
+    <a  href="./pages/baño.html">
+    <img src="./imagenes/img-index/index-baño.webp" alt="Imagen de baño moderno">
+    </a>
+    <div class="content">Baño</div>
+  </div>
+</div>
+</section>
+
+<div class="grid-adicionales">
+  <div class="column-envios">
+    <i class="icono-envios bi bi-truck"></i>
+    <span class="texto-truck">Envíos a todo el país</span>
+  </div>
+  <div class="column-envios">
+    <i class="icono-envios bi bi-credit-card"></i>
+    <span class="texto-creditCard">6 cuotas sin interés</span>
+  </div>
+  <div class="column-envios">
+    <i class="icono-envios bi bi-cash-coin"></i>
+    <span class="texto-cashCoin">Pago simple y seguro</span>
+  </div>
+</div>
+
+
+</main>
+
+
+ <!-- Footer-->
+ <footer>
+<div class="grid-footer">
+  <div class="texto-redes">
+    Seguinos en nuestras redes:
+  </div>
+  <div class="iconos-redes">
+    <i class="bi bi-facebook ps-sm-1 ps-md-2 ps-lg-0 m-lg-4"></i>
+    <i class="bi bi-instagram ps-sm-1 ps-md-2 ps-lg-0 m-lg-4"></i>
+    <i class="bi bi-twitter ps-sm-1 ps-md-2 ps-lg-0 m-lg-4"></i>
+  </div>
+  <div class="texto-contacto">
+    Contacto
+  </div>
+  <div class="texto-direccion">
+    Santa Fe, Argentina
+  </div>
+  <div class="texto-horarios">Contacto On-Line: Lu-Vier de 9 a 17hs</div>
+  <div class="texto-mail">Mail: consulta@deco&home.com.ar</div>
+  <div class="texto-wsp">WhatsApp 342 4235689</div>
+ </div>
+ </footer>
+
+
+
  <!-- Fin footer-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>

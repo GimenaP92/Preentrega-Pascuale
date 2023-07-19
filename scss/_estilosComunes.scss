@@ -1,0 +1,162 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: $fuente, sans-serif;
+    font-weight: 500;
+    box-sizing: border-box;
+   }
+
+   body {
+    background-color: $colorFondoPagina;
+    overflow-x: hidden;
+   }
+
+ 
+  
+   .acciones {
+    margin-top: 1%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .casilla-buscar {
+   border: none;
+   background-color: transparent;
+   border-bottom: 1px solid #ccc;
+   width: 60%;
+   margin-left: 5%;
+   padding-left: 2%;
+  }
+ 
+  .buscar:hover {
+    cursor: pointer;
+    background-color: $blanco;
+  }
+
+  .logos-nav {
+    padding: 10px;
+  }
+  .logos-nav svg footer {
+    transition: transform 0.3s ease;
+  }
+  
+  .logos-nav:hover svg footer {
+    transform: scale(1.2);
+  }
+  
+  
+    .barraDeNavegacion {
+      background-color: $colorFondoPagina;
+      img {
+          width: 80%;
+          margin-left: 20%;
+        }
+        li:hover {
+          font-weight: 900;
+          box-shadow: inset 0 -2px 0 yellow;
+           }
+           
+    }
+    
+
+      .titulo {
+        margin-left: 15%;
+        box-shadow: $sombraNav;
+        width: 20%;
+      }
+     
+      footer {
+        background-color: rgba(214, 208, 208, 0.801);
+        padding: 3%;
+      }
+      
+      .grid-footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+          "texto-redes texto-contacto"
+          "iconos-redes texto-direccion"
+          ". texto-horarios"
+          ". texto-mail"
+          ". texto-wsp";
+      }
+      
+      .texto-redes {
+        grid-area: texto-redes;
+      }
+      
+      .texto-contacto {
+        grid-area: texto-contacto;
+      }
+      
+      .iconos-redes {
+        grid-area: iconos-redes;
+      }
+      
+      .texto-direccion {
+        grid-area: texto-direccion;
+        padding-bottom: 1%;
+      }
+      
+      .texto-horarios {
+        grid-area: texto-horarios;
+        padding-bottom: 1%;
+      }
+      
+      .texto-mail {
+        grid-area: texto-mail;
+        padding-bottom: 1%;
+      }
+      
+      .texto-wsp {
+        grid-area: texto-wsp;
+      }
+      
+      .texto-contacto {
+        margin-bottom: 2%;
+        font-weight: $negrita;
+        font-size: $fuenteGrande;
+        text-decoration: underline;
+      }
+      
+      a,
+      .bi {
+        text-decoration: none;
+        color: black;
+      }
+      
+      .bi:hover {
+        @extend .hover2;
+      }
+      
+      @media (max-width: 350px) {
+        .grid-footer {
+          margin-left: 2%;
+          font-size: small;
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-areas:
+            "texto-redes"
+            "iconos-redes"
+            "texto-contacto"
+            "texto-direccion"
+            "texto-horarios"
+            "texto-mail"
+            "texto-wsp";
+        }
+        .texto-redes{
+          margin-bottom: 4%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .iconos-redes{
+          margin-bottom: 10%;
+          display: flex;
+          justify-content: space-evenly;      
+        }
+      
+      }
+      
