@@ -15,6 +15,6 @@
 }
 
 .btn-ingresar, .contraseña-registrarse:hover, .recordar:hover {
-cursor: pointer;
+@extend .hover2;
 font-weight: $negrita;
 }

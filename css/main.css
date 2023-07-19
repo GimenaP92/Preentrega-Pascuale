@@ -163,7 +163,7 @@ a {
   box-shadow: 3px 3px 3px #868686;
 }
 
-.hover2, .bi:hover {
+.hover2, .btn-ingresar, .contraseña-registrarse:hover, .recordar:hover, .bi:hover {
   cursor: pointer;
   font-size: larger;
 }
@@ -172,6 +172,13 @@ a {
   cursor: pointer;
   transform: translateX(-10px);
   transition: all 2s;
+}
+
+.hover-texto-img-index, .section:hover .content:hover {
+  border: 1px solid black;
+  background-color: #ffffff;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .color-fondo-secciones, .btn-secciones, .secciones-living, .titulo-Rubros {
@@ -235,7 +242,7 @@ a {
 .titulo-bienvenida {
   color: black;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-  font-size: large;
+  font-size: larger;
   font-weight: bold;
   grid-area: titulo-bienvenida;
 }
@@ -285,12 +292,6 @@ a {
 }
 .section:hover {
   cursor: pointer;
-}
-.section:hover .content:hover {
-  border: 1px solid black;
-  background-color: #ffffff;
-  color: black;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 .section img:hover {
   opacity: 0.5;
@@ -455,7 +456,8 @@ main {
   margin-top: 2%;
 }
 
-.secciones-sillones, .secciones-living {
+.secciones-sillones,
+.secciones-living {
   display: flex;
   flex-direction: column;
   font-size: large;
@@ -531,7 +533,6 @@ main {
 }
 
 .btn-ingresar, .contraseña-registrarse:hover, .recordar:hover {
-  cursor: pointer;
   font-weight: bold;
 }
 
