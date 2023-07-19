@@ -114,3 +114,14 @@ main {
               transform: translateX(4px);
               transition: all 2s;
              }
+
+             @media (max-width: 450px) {
+                .nav {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: flex-start;
+                }
+                .nav-item {
+                  margin-bottom: 10px;
+                }
+              }

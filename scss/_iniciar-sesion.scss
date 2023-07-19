@@ -14,7 +14,7 @@
     background: linear-gradient(90deg, rgb(209, 195, 133) 15%, rgb(209, 195, 144) 65%, rgb(166, 154, 103) 100%);
 }
 
-.btn-ingresar, .contraseña-registrarse:hover {
+.btn-ingresar, .contraseña-registrarse:hover, .recordar:hover {
 cursor: pointer;
 font-weight: $negrita;
 }
