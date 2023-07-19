@@ -535,4 +535,58 @@ main {
   font-weight: bold;
 }
 
+body.error {
+  background-image: url("../imagenes/img-index/404_NOT_FOUND_Homer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 1%;
+}
+
+.texto-error {
+  margin-left: 1%;
+}
+
+.texto-error p {
+  font-size: 1.5em;
+  margin-bottom: 1%;
+}
+
+.texto-error a {
+  color: #ebeaf0;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1%;
+  background-color: #7d7a8a;
+  border-radius: 5px;
+}
+
+.texto-error a:hover {
+  color: #ebeaf0;
+  background-color: #201b35;
+}
+
+@media only screen and (max-width: 600px) {
+  body.error {
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+  }
+  .texto-error {
+    margin-left: 0;
+    text-align: center;
+  }
+  .texto-error p {
+    font-size: 1em;
+    margin-bottom: 10%;
+  }
+  .texto-error a {
+    font-size: 0.8em;
+    padding: 3%;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
