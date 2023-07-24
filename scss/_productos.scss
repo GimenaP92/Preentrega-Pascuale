@@ -92,6 +92,9 @@ main {
     width: 80%;
     height: auto;
     margin-top: 2%;
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 .precio-Producto {

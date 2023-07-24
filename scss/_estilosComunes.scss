@@ -130,6 +130,18 @@
       }
       
       @media (max-width: 350px) {
+        .barraDeNavegacion {
+          background-color: $colorFondoPagina;
+          img {
+              width: 80%;
+              margin-left: 20%;
+            }
+            li:hover {
+              font-weight: 900;
+              box-shadow: none;
+               }
+               
+        }
         .grid-footer {
           margin-left: 2%;
           font-size: small;

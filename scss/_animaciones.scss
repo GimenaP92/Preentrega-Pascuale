@@ -1,0 +1,12 @@
+.maquina-de-escribir {
+    overflow: hidden; 
+    border-right: 2px solid #000; 
+    white-space: nowrap;
+    animation: escribir 2s steps(40);
+  }
+  
+  @keyframes escribir {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  

@@ -119,6 +119,17 @@ a,
 }
 
 @media (max-width: 350px) {
+  .barraDeNavegacion {
+    background-color: #f8f4f0;
+  }
+  .barraDeNavegacion img {
+    width: 80%;
+    margin-left: 20%;
+  }
+  .barraDeNavegacion li:hover {
+    font-weight: 900;
+    box-shadow: none;
+  }
   .grid-footer {
     margin-left: 2%;
     font-size: small;
@@ -290,13 +301,15 @@ a {
   width: 50%;
   margin-left: 25%;
 }
+.section .flip-right-element {
+  transition: transform 3s ease;
+}
+.section .flip-right-element:hover {
+  transform: perspective(1000px) rotateY(-45deg);
+}
 .section:hover {
   cursor: pointer;
 }
-.section img:hover {
-  opacity: 0.5;
-}
-
 .section img {
   width: 100%;
   height: auto;
@@ -488,6 +501,9 @@ main {
   height: auto;
   margin-top: 2%;
 }
+.img-Producto:hover {
+  cursor: pointer;
+}
 
 .precio-Producto {
   margin: 0 auto;
@@ -587,6 +603,21 @@ body.error {
   .texto-error a {
     font-size: 0.8em;
     padding: 3%;
+  }
+}
+.maquina-de-escribir {
+  overflow: hidden;
+  border-right: 2px solid #000;
+  white-space: nowrap;
+  animation: escribir 2s steps(40);
+}
+
+@keyframes escribir {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
   }
 }
 

@@ -72,16 +72,23 @@
     margin-left: 25%;
   }
 
+
+.flip-right-element {
+  transition: transform 3s ease; 
+}
+
+.flip-right-element:hover {
+  transform: perspective(1000px) rotateY(-45deg); 
+ 
+}
+
+
   &:hover {
     cursor: pointer;
 
     .content:hover {
       @extend .hover-texto-img-index;
     }
-  }
-
-  img:hover {
-    opacity: 0.5;
   }
 }
 
