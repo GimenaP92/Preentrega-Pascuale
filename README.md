@@ -30,14 +30,19 @@ A continuación, algunas capturas de pantalla de Deco&Home:
 Las herramientas utilizadas para el proyecto fueron las siguientes:
 
 ➖Visual Studio Code como editor de código fuente
+
 ➖Bootstrap y Grid para asegurar un diseño responsive y una estructura coherente
+
 ➖Node.js para la implementación de SASS
+
 ➖Github para el almacenamiento del repositorio
+
 ➖Wireframe.cc para esquematizar la estructura de las diferentes páginas del proyecto
+
 ➖AOS (Animate On Scroll): Librería AOS para animaciones on scroll, lo que agregó efectos visuales atractivos
 
 ## Estado del Proyecto ⛏️
-Este proyecto se encuentra en constante desarrollo y estamos abiertos a recibir sugerencias y mejoras.
+Este proyecto se encuentra en constante desarrollo y estoy abierta a recibir sugerencias y mejoras.
 
 En el futuro, planeo incorporar funcionalidades de JavaScript y React para completar el ecommerce.
 
