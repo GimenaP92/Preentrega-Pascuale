@@ -20,11 +20,11 @@ Mi intención es que la página de inicio sea simple, para que los visitantes en
 
 A continuación, algunas capturas de pantalla de Deco&Home:
 
-![Página de Inicio](https://mi-sitio-web.com/imagenes/captura1.png)
-*Figura 1: Página de Inicio de Deco&Home*
+![Nav-Página de Inicio](./imagenes/img-index/Captura%20de%20pantalla%20index%201.png)
+*Figura 1: Nav-Página de Inicio de Deco&Home*
 
-![Catálogo de Productos](https://mi-sitio-web.com/imagenes/captura2.png)
-*Figura 2: Catálogo de Productos de Deco&Home*
+![Página de Inicio](./imagenes/img-index/Captura%20de%20pantalla%20index%202.png)
+*Figura 2: Página de Inicio de Deco&Home*
 
 ## Herramientas utilizadas 🔧
 Las herramientas utilizadas para el proyecto fueron las siguientes:
