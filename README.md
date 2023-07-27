@@ -8,11 +8,11 @@ Deco&Home es un proyecto de ecommerce dedicado a la decoración para el hogar.
 Como parte del curso de desarrollo web inicial en Coder House, decidí crear un ecommerce de decoración para el hogar llamado Deco&Home. Mi objetivo es transmitir elegancia y sencillez, por lo que he utilizado colores cálidos y tonos transparentes en el diseño.
 
 ## Descripción 🙌
-Comienza con una breve bienvenida y una descripción de la temática. Se incluye una animación para recibir a los visitantes.
+Comienza con una breve bienvenida y una descripción de la temática. Se incluye una animación para recibir a los usuarios.
 
 A continuación, se presentan las secciones de productos para el hogar. Cada sección tiene una "card" que contiene una imagen y un enlace hacia cada una de ellas.
 
-Además, se ha añadido una funcionalidad de "hover" en las cards, que cambia el color del texto de la sección cuando el cursor pasa por encima de ellas. Esto agrega un efecto visual atractivo para destacar las diferentes secciones y animar la interacción con el usuario.
+Además, se ha añadido una funcionalidad de "hover" en las cards, que cambia el color del texto de la sección cuando el cursor pasa por encima de ellas. Esto agrega un efecto visual atractivo para destacar las diferentes secciones y animar la interacción.
 
 Mi intención es que la página de inicio sea simple, para que los visitantes encuentren rápidamente el sector del hogar que les interesa y puedan realizar sus compras de manera intuitiva y sin complicaciones.
 
@@ -21,10 +21,10 @@ Mi intención es que la página de inicio sea simple, para que los visitantes en
 A continuación, algunas capturas de pantalla de Deco&Home:
 
 ![Nav-Página de Inicio](./imagenes/img-index/Captura%20de%20pantalla%20index%201.png)
-*Figura 1: Nav-Página de Inicio de Deco&Home*
+*Figura 1: Navbar y bienvenida -Página de Inicio de Deco&Home*
 
 ![Página de Inicio](./imagenes/img-index/Captura%20de%20pantalla%20index%202.png)
-*Figura 2: Página de Inicio de Deco&Home*
+*Figura 2: Secciones -Página de Inicio de Deco&Home*
 
 ## Herramientas utilizadas 🔧
 Las herramientas utilizadas para el proyecto fueron las siguientes:
