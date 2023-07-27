@@ -1,5 +1,4 @@
 
-
 *{
     padding: 0;
     margin: 0;
@@ -14,10 +13,12 @@
    }
 
    .acciones {
+    margin-bottom: 4%;
     margin-top: 1%;
     display: flex;
     justify-content: flex-end;
-  }
+   }
+  
 
   .casilla-buscar {
    border: none;
@@ -68,7 +69,14 @@
       footer {
         background-color: $colorFondoFooter;
         padding: 3%;
+        margin-top: 2%;
+        .logo-cuenta {
+          background-color: $colorFondoFooter;
+        }
+      .bi {
+        background-color: $colorFondoFooter;
       }
+    }
       
       .grid-footer {
         display: grid;
@@ -129,7 +137,7 @@
         @extend .hover2;
       }
       
-      @media (max-width: 350px) {
+      @media (max-width: 400px) {
         .barraDeNavegacion {
           background-color: $colorFondoPagina;
           img {

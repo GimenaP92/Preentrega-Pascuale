@@ -23,17 +23,22 @@ main {
     font-size: $fuenteGrande;
     padding-left: 2%;
 }
-
+.nav-link {
+    transition: color 0.3s ease, transform 0.3s ease; 
+    position: relative;
+    display: inline-block; 
+  &:hover {
+    color: #a09749; 
+    transform: scale(1.1); 
+  }
+}
+  
 
 .nav-secciones {
     color: black;
     background-color: #f8f4f0;
     box-shadow: 5px 2px 5px rgb(160, 148, 132);
     margin-right: 5%;
-}
-
-.nav-secciones:hover {
-    color: black;
 }
 
 .secciones-living {
@@ -117,6 +122,7 @@ main {
     transform: translateX(4px);
     transition: all 2s;
 }
+
 
 @media (max-width: 450px) {
     .nav {

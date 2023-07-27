@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Pascuale Gimena">
   <meta name="description"
-    content="Descubre cómo transformar tu cocina en un espacio funcional y atractivo con nuestra selección de muebles, utensillos y elementos decorativos.">
-  <meta name="keywords"
-    content="productos del hogar, decoración para el hogar, muebles, accesorios de cocina, electrodomésticos, artículos para el baño, decoración de interiores, iluminación, textiles para el hogar, utensilios de cocina, organización, electrodomésticos, muebles modernos, diseño de interiores, alfombras, cortinas, ropa de cama, toallas, decoración vintage, estilo contemporáneo, estilo rústico, decoración minimalista">
-  <title>Deco & Home - decoración para el hogar, venta online- productos para cocina</title>
+  content="Descubre cómo transformar tu cocina en un espacio funcional y atractivo con nuestra selección de muebles, utensillos y elementos decorativos.">
+<meta name="keywords"
+  content="productos del hogar, decoración para el hogar, muebles, accesorios de cocina, electrodomésticos, artículos para el baño, decoración de interiores, iluminación, textiles para el hogar, utensilios de cocina, organización, electrodomésticos, muebles modernos, diseño de interiores, alfombras, cortinas, ropa de cama, toallas, decoración vintage, estilo contemporáneo, estilo rústico, decoración minimalista">
+<title>Deco & Home - decoración para el hogar, venta online- productos para cocina</title>
+   <!--Link bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   <!--Link animaciones-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <!--Link icono-->
   <link rel="shortcut icon" href="../imagenes/img-index/iconTitle.png" type="image/x-icon">
+  <!--Link scss-->
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/main.css.map">
+    <!--Link fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
@@ -24,13 +30,14 @@
   <div class="acciones mt-3">
     <form action="" class="d-flex">
       <input class="casilla-buscar" type="search" placeholder="Buscar">
-      <button class="logos-nav">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
-          viewBox="0 0 16 16">
-          <path
-            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-        </svg>
-      </button>
+    </input>
+    <a class="logo-cuenta logos-nav" href="../error404.html">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+      viewBox="0 0 16 16">
+      <path
+        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+    </svg>
+    </a>
       <a class="logo-cuenta logos-nav" href="../error404.html">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart"
           viewBox="0 0 16 16">
@@ -104,7 +111,7 @@
       <div class="tarjeta-container">
         <div class="card" style="width: 18rem;">
           <img src="../imagenes/img-cocina/img-barras-cocina/img-1.webp" class="card-img-top img-Producto"
-            alt="Barra de cocina blanca">
+            alt="Barra de cocina blanca" data-aos="flip-right" data-aos-duration="2800">
           <div class="card-body">
             <h4 class="card-title">BARRA DESAYUNADORA WHITE</h4>
             <p class="card-text">2 estantes</p>
@@ -116,7 +123,7 @@
         <!-- Comienzo producto-->
         <div class="card" style="width: 18rem;">
           <img src="../imagenes/img-cocina/img-barras-cocina/img-2.webp" class="card-img-top img-Producto"
-            alt="Barra de cocina gris">
+            alt="Barra de cocina gris" data-aos="flip-right" data-aos-duration="2800">
           <div class="card-body">
             <h4 class="card-title">BARRA DESAYUNADORA GREY BI</h4>
             <p class="card-text">1 estante interno</p>
@@ -128,7 +135,7 @@
         <!-- Comienzo producto-->
         <div class="card" style="width: 18rem;">
           <img src="../imagenes/img-cocina/img-barras-cocina/img-3.webp" class="card-img-top img-Producto"
-            alt="Barra de cocina blanca y negra">
+            alt="Barra de cocina blanca y negra" data-aos="flip-right" data-aos-duration="2800">
           <div class="card-body">
             <h4 class="card-title">BARRA DESAYUNADORA BLANCA Y NEGRA</h4>
             <p class="card-text">Barra de pared</p>
@@ -140,7 +147,7 @@
         <!-- Comienzo producto-->
         <div class="card" style="width: 18rem;">
           <img src="../imagenes/img-cocina/img-barras-cocina/img-4.webp" class="card-img-top img-Producto"
-            alt="Barra de cocina alta, con vinoteca">
+            alt="Barra de cocina alta, con vinoteca" data-aos="flip-right" data-aos-duration="2800">
           <div class="card-body">
             <h4 class="card-title">BARRA SEPARADORA DE AMBIENTE WOOD TOP</h4>
             <p class="card-text">Multiples estantes</p>
@@ -156,7 +163,7 @@
       <div class="tarjeta-container">
         <div class="card" style="width: 18rem;">
           <img src="../imagenes/img-cocina/img-banquetas-cocina/img-1.webp" class="card-img-top img-Producto"
-            alt="Banquetas altas blancas,multiforma">
+            alt="Banquetas altas blancas,multiforma" data-aos="flip-right" data-aos-duration="2800">
           <div class="card-body">
             <h4 class="card-title">BANQUETA ESPACIAL</h4>
             <p class="card-text">Alta, blanca, cromada x 2</p>
@@ -168,7 +175,7 @@
         <!-- Comienzo producto-->
         <div class="card" style="width: 18rem;">
           <img src="../imagenes/img-cocina/img-banquetas-cocina/img-2.webp" class="card-img-top img-Producto"
-            alt="Banquetas altas negras cuadradas">
+            alt="Banquetas altas negras cuadradas" data-aos="flip-right" data-aos-duration="2800">
           <div class="card-body">
             <h4 class="card-title">BANQUETA BLACK</h4>
             <p class="card-text">Alta, negra, cromada x 2</p>
@@ -180,7 +187,7 @@
         <!-- Comienzo producto-->
         <div class="card" style="width: 18rem;">
           <img src="../imagenes/img-cocina/img-banquetas-cocina/img-3.webp" class="card-img-top img-Producto"
-            alt="Banqueta alta blanca, media espalda">
+            alt="Banqueta alta blanca, media espalda" data-aos="flip-right" data-aos-duration="2800">
           <div class="card-body">
             <h4 class="card-title">BANQUETA WHITE</h4>
             <p class="card-text">Alta, blanca, cromada x 2</p>
@@ -192,7 +199,7 @@
         <!-- Comienzo producto-->
         <div class="card" style="width: 18rem;">
           <img src="../imagenes/img-cocina/img-banquetas-cocina/img-4.webp" class="card-img-top img-Producto"
-            alt="Banqueta alta con apoyo en espalda de material cordon, negro">
+            alt="Banqueta alta con apoyo en espalda de material cordon, negro" data-aos="flip-right" data-aos-duration="2800">
           <div class="card-body">
             <h4 class="card-title">BANQUETA CORDON</h4>
             <p class="card-text">Alta, negra, cordon x 2</p>
@@ -208,7 +215,7 @@
       <div class="tarjeta-container">
         <div class="card" style="width: 18rem;">
           <img src="../imagenes/img-cocina/img-utensillos-cocina/img-1.webp" class="card-img-top img-Producto"
-            alt="Decorativo cuadro utensillos de cocina">
+            alt="Decorativo cuadro utensillos de cocina" data-aos="flip-right" data-aos-duration="2800">
           <div class="card-body">
             <h4 class="card-title">CUADRO DECORATIVO UTENSILLOS</h4>
             <p class="card-text">4 Utensillos de plastico</p>
@@ -220,7 +227,7 @@
         <!-- Comienzo producto-->
         <div class="card" style="width: 18rem;">
           <img src="../imagenes/img-cocina/img-utensillos-cocina/img-2.webp" class="card-img-top img-Producto"
-            alt="8 frascos condimentos">
+            alt="8 frascos condimentos" data-aos="flip-right" data-aos-duration="2800">
           <div class="card-body">
             <h4 class="card-title">CONDIMENTERO CON SOPORTE</h4>
             <p class="card-text">8 frascos de vidrio</p>
@@ -232,7 +239,7 @@
         <!-- Comienzo producto-->
         <div class="card" style="width: 18rem;">
           <img src="../imagenes/img-cocina/img-utensillos-cocina/img-3.webp" class="card-img-top img-Producto"
-            alt="Lata con relieve, tapa madera">
+            alt="Lata con relieve, tapa madera" data-aos="flip-right" data-aos-duration="2800">
           <div class="card-body">
             <h4 class="card-title">LATA PARA GUARDAR</h4>
             <p class="card-text">Lata con relieve, tapa madera</p>
@@ -244,7 +251,7 @@
         <!-- Comienzo producto-->
         <div class="card" style="width: 18rem;">
           <img src="../imagenes/img-cocina/img-utensillos-cocina/img-4.webp" class="card-img-top img-Producto"
-            alt="Utensilos de cocina, mango de madera, material plastico, color negro">
+            alt="Utensilos de cocina, mango de madera, material plastico, color negro" data-aos="flip-right" data-aos-duration="2800">
           <div class="card-body">
             <h4 class="card-title">UTENSILLOS BLACK & WOOD</h4>
             <p class="card-text">Utensillos de cocina x 8</p>
@@ -258,15 +265,21 @@
   </section>
   </main>
   <!-- Footer-->
-  <footer class="mt-5">
+  <footer>
     <div class="grid-footer">
       <div class="texto-redes">
         Seguinos en nuestras redes:
       </div>
       <div class="iconos-redes">
-        <i class="bi bi-facebook ps-sm-1 ps-md-2 ps-lg-0 m-lg-4"></i>
-        <i class="bi bi-instagram ps-sm-1 ps-md-2 ps-lg-0 m-lg-4"></i>
-        <i class="bi bi-twitter ps-sm-1 ps-md-2 ps-lg-0 m-lg-4"></i>
+        <a class="logo-cuenta logos-nav" href="./error404.html">
+          <i class="bi bi-facebook ps-sm-1 ps-md-2 ps-lg-0 m-lg-4"></i>
+        </a>
+        <a class="logo-cuenta logos-nav" href="./error404.html">
+          <i class="bi bi-instagram ps-sm-1 ps-md-2 ps-lg-0 m-lg-4"></i>
+        </a>
+        <a class="logo-cuenta logos-nav" href="./error404.html">
+          <i class="bi bi-twitter ps-sm-1 ps-md-2 ps-lg-0 m-lg-4"></i>
+        </a>
       </div>
       <div class="texto-contacto">
         Contacto
@@ -280,10 +293,23 @@
     </div>
   </footer>
   <!-- Fin footer-->
-  <script src="../js/style.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"></script>
+<!-- Enlaces a las librerías de Bootstrap y AOS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+  crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!-- Inicialización de AOS y función agregarAlCarrito -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    AOS.init();
+  });
+
+  function agregarAlCarrito() {
+    alert("Producto agregado al carrito.");
+  }
+</script>
+
 </body>
 
 </html>

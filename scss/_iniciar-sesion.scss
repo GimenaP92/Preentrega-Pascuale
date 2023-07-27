@@ -11,10 +11,10 @@
 .btn-ingresar {
     padding: 2%;
     border-radius: 10%;
-    background: linear-gradient(90deg, rgb(209, 195, 133) 15%, rgb(209, 195, 144) 65%, rgb(166, 154, 103) 100%);
+    @extend .color-fondo-secciones;
 }
 
-.btn-ingresar, .contraseña-registrarse:hover, .recordar:hover {
+.btn-ingresar:hover, .contraseña-registrarse:hover, .recordar:hover {
 @extend .hover2;
 font-weight: $negrita;
 }
