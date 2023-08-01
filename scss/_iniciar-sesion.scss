@@ -1,20 +1,23 @@
-.fondo-section{
+.fondo-section {
     background-image: url(../imagenes/img-iniciarsesion/img-fondo-sesion.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-   
+
 }
+
 .formulario {
     opacity: 1;
-  }
-  
+}
+
 .btn-ingresar {
     padding: 2%;
     border-radius: 10%;
     @extend .color-fondo-secciones;
 }
 
-.btn-ingresar:hover, .contraseña-registrarse:hover, .recordar:hover {
-@extend .hover2;
-font-weight: $negrita;
+.btn-ingresar:hover,
+.contraseña-registrarse:hover,
+.recordar:hover {
+    @extend .hover2;
+    font-weight: $negrita;
 }

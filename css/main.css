@@ -182,7 +182,9 @@ a {
   box-shadow: 3px 3px 3px #868686;
 }
 
-.hover2, .btn-ingresar:hover, .contraseña-registrarse:hover, .recordar:hover, .bi:hover {
+.hover2, .btn-ingresar:hover,
+.contraseña-registrarse:hover,
+.recordar:hover, .bi:hover {
   cursor: pointer;
   font-size: larger;
 }
@@ -330,66 +332,53 @@ a {
 .content {
   font-size: medium;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 20%;
   padding: 1%;
 }
 
-.grid-container-descuento {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Cambiar de 1 columna a 4 columnas */
-  gap: 20px;
-  max-width: 680px; /* Ancho máximo para las 4 tarjetas */
-  margin: 0 auto; /* Centrar el grid horizontalmente */
+.card-descuentos {
+  width: 200px;
+  height: 300px;
+  perspective: 1000px; /* Añade una perspectiva para crear el efecto 3D */
 }
 
-.card-descuento {
-  /* ... (tu código actual) ... */
-  max-width: 160px; /* Cambiar de 200px a 160px para dejar espacio suficiente */
-  /* ... (tu código actual) ... */
-}
-
-.card-inner {
+.card-inner-descuentos {
   position: relative;
-  transition: transform 0.6s; /* Transición de transformación */
-  transform-style: preserve-3d; /* Establece el estilo de transformación en 3D */
+  width: 100%;
   height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
 }
 
-.card-descuento:hover .card-inner {
-  transform: rotateY(180deg); /* Gira la tarjeta 180 grados en el eje Y al hacer hover */
+.card-descuentos:hover .card-inner-descuentos {
+  transform: rotateY(180deg);
 }
 
 .front, .back {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  backface-visibility: hidden; /* Oculta la cara trasera de la tarjeta */
+  backface-visibility: hidden;
 }
 
 .front {
-  z-index: 2;
+  /* Estilos para la parte frontal de la card */
 }
 
 .back {
-  transform: rotateY(180deg); /* Gira la cara trasera 180 grados inicialmente */
+  transform: rotateY(180deg);
+  /* Estilos para la parte trasera de la card */
 }
 
-.img-descuento {
+.img-card-descuentos {
   width: 100%;
   height: auto;
-  max-width: 150px; /* Ancho máximo deseado para las imágenes */
+  object-fit: cover;
 }
 
-.discount-box {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: red;
-  color: white;
-  padding: 5px;
-  font-size: 14px;
+.textos-descuentos {
+  text-align: center;
+  margin: 10px 0;
 }
 
 .grid-adicionales {
@@ -400,9 +389,8 @@ a {
   column-gap: 10px;
   justify-content: center;
   background-color: #e9e9e9;
-  padding: 20px;
   margin-top: 10%;
-  padding: 5%;
+  padding: 4%;
 }
 
 .bi-truck {
@@ -420,16 +408,19 @@ a {
 .texto-truck {
   grid-area: texto-truck;
   font-weight: bold;
+  margin-bottom: 5%;
 }
 
 .texto-creditCard {
   grid-area: texto-creditCard;
   font-weight: bold;
+  margin-bottom: 5%;
 }
 
 .texto-cashCoin {
   grid-area: texto-cashCoin;
   font-weight: bold;
+  margin-bottom: 5%;
 }
 
 .column-envios {
@@ -437,12 +428,11 @@ a {
   flex-direction: column;
   align-items: center;
   color: rgb(14, 14, 13);
-  padding-right: 15%;
 }
 
 .icono-envios {
   font-size: larger;
-  margin-bottom: 10px;
+  margin-bottom: 5%;
 }
 .icono-envios:hover {
   transform: translateX(50px);
@@ -635,7 +625,9 @@ main {
   border-radius: 10%;
 }
 
-.btn-ingresar:hover, .contraseña-registrarse:hover, .recordar:hover {
+.btn-ingresar:hover,
+.contraseña-registrarse:hover,
+.recordar:hover {
   font-weight: bold;
 }
 

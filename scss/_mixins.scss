@@ -1,30 +1,30 @@
 //Extends
- .textosCentrados {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
- }
+.textosCentrados {
+   display: flex;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+}
 
- a {
+a {
    color: black;
    text-decoration: none;
- }
+}
 
 .logos-nav {
-   border:none;
+   border: none;
    background-color: $colorFondoPagina;
 }
 
- .hover1 {
-    cursor: pointer;
-    box-shadow: $sombraNav;
- }
+.hover1 {
+   cursor: pointer;
+   box-shadow: $sombraNav;
+}
 
- .hover2 {
-    cursor: pointer;
-    font-size: $fuenteGrande;
- }
+.hover2 {
+   cursor: pointer;
+   font-size: $fuenteGrande;
+}
 
 .hover3 {
    cursor: pointer;
@@ -40,45 +40,45 @@
 }
 
 .color-fondo-secciones {
-   background: rgb(209,195,133);
-    background: linear-gradient(90deg, rgba(209,195,133,1) 15%, rgba(209,195,144,1) 65%, rgba(166,154,103,1) 100%);
+   background: rgb(209, 195, 133);
+   background: linear-gradient(90deg, rgba(209, 195, 133, 1) 15%, rgba(209, 195, 144, 1) 65%, rgba(166, 154, 103, 1) 100%);
 }
 
 
- .btn-secciones {
-    font-size: $fuenteGrande;
-    font-weight: $negrita;
-    @extend .color-fondo-secciones;
-    padding: 2%;
-    width: 100%;
-    border-radius: 5px;
-    margin-top: 5%;
- }
+.btn-secciones {
+   font-size: $fuenteGrande;
+   font-weight: $negrita;
+   @extend .color-fondo-secciones;
+   padding: 2%;
+   width: 100%;
+   border-radius: 5px;
+   margin-top: 5%;
+}
 
- .btn-link {
-      border: none;
-      border-radius: 5px;
-      background-color: rgba(0, 0, 0, 0.5); 
-      background-blend-mode: darken; 
-      color:#f8f4f0;
-      background-size: cover;
-      font-weight: bold;
-      font-size: medium;
-      width: 100%;
-      @extend .textosCentrados;
- }
-
- .btn-carrito {
+.btn-link {
+   border: none;
+   border-radius: 5px;
+   background-color: rgba(0, 0, 0, 0.5);
+   background-blend-mode: darken;
+   color: #f8f4f0;
+   background-size: cover;
+   font-weight: bold;
+   font-size: medium;
+   width: 100%;
    @extend .textosCentrados;
-    border-radius: 5px;
-    background-color: rgb(145, 122, 91);
-    box-shadow: $sombraBrown;
-    border-color: transparent;
-    color: #ffffff;
-    padding: 2%;
-    flex-direction: row;
-    width: 100%;
-    white-space: nowrap;
-    overflow: visible;
-    box-sizing: content-box;
- }
+}
+
+.btn-carrito {
+   @extend .textosCentrados;
+   border-radius: 5px;
+   background-color: rgb(145, 122, 91);
+   box-shadow: $sombraBrown;
+   border-color: transparent;
+   color: #ffffff;
+   padding: 2%;
+   flex-direction: row;
+   width: 100%;
+   white-space: nowrap;
+   overflow: visible;
+   box-sizing: content-box;
+}

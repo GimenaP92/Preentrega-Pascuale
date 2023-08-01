@@ -23,16 +23,18 @@ main {
     font-size: $fuenteGrande;
     padding-left: 2%;
 }
+
 .nav-link {
-    transition: color 0.3s ease, transform 0.3s ease; 
+    transition: color 0.3s ease, transform 0.3s ease;
     position: relative;
-    display: inline-block; 
-  &:hover {
-    color: #a09749; 
-    transform: scale(1.1); 
-  }
+    display: inline-block;
+
+    &:hover {
+        color: #a09749;
+        transform: scale(1.1);
+    }
 }
-  
+
 
 .nav-secciones {
     color: black;
@@ -97,7 +99,8 @@ main {
     width: 80%;
     height: auto;
     margin-top: 2%;
-    &:hover{
+
+    &:hover {
         cursor: pointer;
     }
 }
@@ -134,5 +137,5 @@ main {
     .nav-item {
         margin-bottom: 10px;
     }
-    
+
 }
